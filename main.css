@@ -1,0 +1,25 @@
+#boxes {
+    /* display: flex; */
+    /* flex-direction: row; */
+}
+
+.row {
+    display: flex;
+}
+
+.square {
+    border: solid 1px rgb(182, 229, 194);
+    height: 50px;
+    width: 50px;
+    background-color: green;
+    text-align: center;
+}
+
+#results {
+    height: 50px;
+    width: 154px;
+}
+
+#math {
+    background-color:rgb(90, 172, 111);
+}
