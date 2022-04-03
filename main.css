@@ -1,4 +1,14 @@
+body {
+    background-color: rgb(180, 190, 184);
+}
+
 #boxes {
+    margin: 10px;
+    width: 400px;
+    color: rgb(227, 238, 230);
+    text-shadow: 2px 2px 5px black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(5, 65, 8, 0.19);
+    text-align: center;
     /* display: flex; */
     /* flex-direction: row; */
 }
@@ -9,17 +19,21 @@
 
 .square {
     border: solid 1px rgb(182, 229, 194);
-    height: 50px;
-    width: 50px;
+    height: 100px;
+    width: 100px;
     background-color: green;
+    line-height: 100px;
     text-align: center;
 }
 
-#results {
-    height: 50px;
-    width: 154px;
+.math {
+    background-color:rgb(90, 172, 111);
 }
 
-#math {
-    background-color:rgb(90, 172, 111);
+#results {
+    border: solid 1px rgb(182, 229, 194);
+    height: 100px;
+    width: 304px;
+    background-color: green;
+    text-align: center;
 }
