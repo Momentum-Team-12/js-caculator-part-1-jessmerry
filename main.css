@@ -9,6 +9,7 @@ body {
     text-shadow: 2px 2px 5px black;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(5, 65, 8, 0.19);
     text-align: center;
+    border: 10px double whitesmoke;
     /* display: flex; */
     /* flex-direction: row; */
 }
@@ -24,6 +25,7 @@ body {
     background-color: green;
     line-height: 100px;
     text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(5, 65, 8, 0.19);
 }
 
 .math {
